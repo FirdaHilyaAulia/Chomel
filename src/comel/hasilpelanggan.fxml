@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="586.0" prefWidth="446.0" style="-fx-background-color: #33691E;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="comel.HasilpelangganController">
+   <children>
+      <AnchorPane layoutX="34.0" layoutY="108.0" opacity="0.83" prefHeight="450.0" prefWidth="381.0" style="-fx-background-color: #f4ff81;">
+         <children>
+            <Label fx:id="nama" layoutX="215.0" layoutY="138.0" prefHeight="25.0" prefWidth="128.0" />
+            <Label fx:id="notell" layoutX="215.0" layoutY="197.0" prefHeight="25.0" prefWidth="138.0" />
+            <Label fx:id="menu" layoutX="215.0" layoutY="254.0" prefHeight="25.0" prefWidth="138.0" />
+            <Label fx:id="total" layoutX="216.0" layoutY="312.0" prefHeight="25.0" prefWidth="138.0" />
+         </children></AnchorPane>
+      <Label layoutX="107.0" layoutY="30.0" text="Karcis Pembelian" textFill="#f4ff81">
+         <font>
+            <Font name="Love Story Rough" size="47.0" />
+         </font>
+      </Label>
+      <Button fx:id="cetak" layoutX="166.0" layoutY="127.0" mnemonicParsing="false" onAction="#oke" text="Cetak Nomer Antrian" />
+      <ImageView fitHeight="152.0" fitWidth="80.0" layoutX="12.0" layoutY="67.0">
+         <image>
+            <Image url="@../img/pop.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="hasil" layoutX="194.0" layoutY="160.0" onAction="#hasile" prefHeight="37.0" prefWidth="74.0" />
+      <Label layoutX="107.0" layoutY="248.0" text="Nama ">
+         <font>
+            <Font name="Love Story Rough" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="306.0" text="No.Telp">
+         <font>
+            <Font name="Love Story Rough" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="111.0" layoutY="359.0" text="Menu">
+         <font>
+            <Font name="Love Story Rough" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="109.0" layoutY="418.0" text="Total">
+         <font>
+            <Font name="Love Story Rough" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="metuu" layoutX="200.0" layoutY="516.0" mnemonicParsing="false" onAction="#keluar" text="E X I T" />
+      <Label layoutX="42.0" layoutY="490.0" text="*Jangan lupa Diperlihatkan Saat Mengambil Pesanan ya.Terimakasih" />
+   </children>
+</AnchorPane>

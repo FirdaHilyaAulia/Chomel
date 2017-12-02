@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #558B2F;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="comel.UtamaController">
+   <children>
+      <AnchorPane layoutX="27.0" layoutY="26.0" opacity="0.44" prefHeight="355.0" prefWidth="547.0" style="-fx-background-color: #8BC34A;" />
+      <Label layoutX="209.0" layoutY="14.0" text="A k u n">
+         <font>
+            <Font name="Cheri" size="55.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="400.0" fitWidth="537.0" layoutX="22.0">
+         <image>
+            <Image url="@../img/PNG_transparency_demonstration_1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="214.0" layoutY="17.0" text="A k u n" textFill="PINK">
+         <font>
+            <Font name="Cheri" size="55.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="admin" layoutX="275.0" layoutY="136.0" onAction="#proad" style="-fx-background-color: #f4ff81;" text="A d m i n">
+         <font>
+            <Font name="Clarendon BT Bold" size="38.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="pelanggan" layoutX="259.0" layoutY="236.0" onAction="#propel" style="-fx-background-color: #f4ff81;" text="Pelanggan ">
+         <font>
+            <Font name="Clarendon BT Bold" size="38.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="151.0" layoutY="350.0" text="Daftar akun Pelanggan ?">
+         <font>
+            <Font name="Century Gothic" size="16.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="daftar_disini" layoutX="359.0" layoutY="346.0" onAction="#dd" text="Daftar Disini" textFill="#f4ff81">
+         <font>
+            <Font name="Clarendon BT Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="27.0" layoutY="106.0">
+         <image>
+            <Image url="@../img/bb.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
